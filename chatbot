@@ -1,0 +1,100 @@
+import random
+
+greetings = ['hola','hlo','hello','helo','hi','hey!','hey','hai','hii','hiii']
+greet=["Hi","Hello","Hey"]
+random_greeting = random.choice(greet)
+
+question = ['how are you','how are you doing?','hw are you','hw r u','how r u','hwru','what about you','about you','wt abt u','what about u','how are u','how r you']
+responses = ["I'm fine"]
+random_response = random.choice(responses)
+
+pnrs =['can i get my pnr status','tell me about my pnr status','pnr status','pnr status?','status']
+pnrstatus = ["To check your train PNR status, type in PNR followed by your 10-digit PNR number and send to 139 or 5676747. For eg., PNR <10-digit code="">."]
+random_pnr = random.choice(pnrstatus)
+
+pnrr=['what is pnr','passenger name record','what is passenger name record','pnrr','pnrno','pnr no','my pnr no','how do i read my pnr number','how can i know my pnr number','pnr means','pnr','how can i know my pnr no','where is my pnr number located','how to find my pnr number','find my pnr number','my pnr number','where is my pnr number','define pnr','tellme about pnr','what pnr','what is pnr number','how can i find my pnr number']
+definepnr=["The PNR status of the train ticket that shows CNF means that the seats are confirmed. Ans: RAC means “Reservation Against Cancellation” and WL stands for “Waiting List”. RAC means that you will be given a seat which has to be shared with another passenger.This is printed on the upper right corner of your ticket and contains 10 digits. You use this PNR number to check your current status. Click ​here​ to enter your PNR number and check your status. The PNR number (passenger name record) is a 10digit number printed on the upper right corner of your Indian Railway ticket."]
+random_defpnr= random.choice(definepnr)
+
+seatavail=['how to find my seat availability','find my coach','where is my coach','get avilability','seat','seat avilability','seats','my seat','whwer is my seat','where is my seat','find my seat','tell my seat','tell my seat availability','availability of my seat','show my seat availability','seating availability']
+seat=["Step 1: Go to http://www.makemytrip.com/railways/ to know seat availability. Step 2: Enter the details of your Originating and Destination Station name. Step 3: Then, enter your journey date or you can also directly click the calendar icon to enter the journey date."]
+random_seatavail= random.choice(seat)
+
+railstatus=['where is my train','my train status','my rail status','location of my train','train location','rail location','location','how can i check my train location','how can i check location of my train','how can i check my train','how can i know train location','live train running status','live running status','show my train','show my current train location','where is my train location','whr is my train','search my train','running status','train live status','find my train','track my train','train status','status of my train','where are my train','my train','place of my train','find my location of my train','location of my train']
+railstat=["To find your train click on the below link or go with your browser: https://www.ixigo.com/where-is-my-train"]
+random_railstatus= random.choice(railstat)
+
+trainschedule=['find my train schedule','my train schedule','how can i check train timing','my train timing','timing','time','train schedule','schedule of my train','train timing','train timings','rail timing','time of my train','scheduling time','when my train came','tell me about train timings']
+schedule=["To find train timings click on the below link or go with your browser: https://www.travelkhana.com/travelkhana/indian-railways-time-table"]
+random_schedule= random.choice(schedule)
+
+chkposition=['how can i check train coach position and seat layout?','how can I check train coach position and seat layout','how can i check my train position','check my train position','chk my train position','check my rail position','seat position','train coach position','position of train coach','what if i don’t find my coach number on the list of coach position?','what if i don’t find my coach number on the list of coach position','coach position','coach detail','coach details','seat no','seat number','seating number','seating no','seat map','seatmap']
+position=["One can check coach position and seat layout of any train in Indian Railways by entering your desired train number or train code on the box above. List of coaches appear for your train which are arranged with respect to engine of the coach. One can select their allotted coach to know seat arrangement of that coach."]
+random_pos= random.choice(position)
+
+reservation=['train reservation','book my ticket','book ticket','book ticket in online','book online','online booking','make online booking','train ticket reservation','rail ticket reservation','trainticket reservation','reservation','can i make reservation','reserve','indian railways reservation','how can i make reservation','how do i make reservation','online reservation','onlinereservation','reserve my ticket','ticket','trainticket','train ticket','railticket','rail ticket','e-ticket','online ticket','e ticket','how to book online ticket?','how to book online ticket','how to book trainticket in online?','how to book trainticket in online','how to book train ticket in online']
+reserve=["For online booking click on the below link: https://www.makemytrip.com/railways/"]
+random_res= random.choice(reserve)
+
+fare=['fare','fareenquiry','fare enquiry','ticket cost','what is the cost of ticket','what is my fare','cost of my ticket','tell my ticket cost','what is the fare of my ticket','cost','ticketcost']
+fareenq=["For fare enquiry click on the below link or go with your browser: http://www.indianrail.gov.in/enquiry/FARE/FareEnquiry.html?locale=en"]
+random_fare= random.choice(fareenq)
+
+train=['chennao to mumbai','train','rail','my train','chennai to kolkata','trichy to chennai','chennai to delhi','chennai trains','trichy trains','pallavan express','pandiyan express','vaigai express','rockfort express','chennai express','trichy to chennai','trichy to madras','train details']
+traindetail=["For train details refer this link: https://www.mapsofindia.com/railway-timetable/ "]
+random_train= random.choice(traindetail)
+
+faq1=['how many passengers can be booked in a single ticket/transaction?','how many passengers can be booked in a single ticket/transaction','How many passengers can be booked in a single ticket','How many passengers can be booked in a single ticket?','how many days before can a reservation be done?','how many days before can a reservation be done','How many days before can a reservation done?','How many days before can a reservation done']
+faq11=["A maximum of 6 passenger for general and upto 4 passenger for tatkal.Both the online and offline mode of reservation starts 90 days before the date of journey."]
+random_faq= random.choice(faq11)
+
+platform=['how To know platform number of the train','platform','my platform details','how to find my platform number','how to find my platform no','platform no','platform number','what is my platform number','tell me about my platform details','how can i get my platform details','i want mt platform details','platform details','platform details of my train','show my platform details']
+platform1=["Go to the IRCTC website and click on 'Train Platform Enquiry' option given at the top-left corner of the website page.Then a box asking the Train Number and the Railway Station will appear in front of your mobile screen"]
+random_plat= random.choice(platform1)
+
+who=['who are you','who r u','who are u','what about you','what about u','tell me about yourself','tell me about urself','who created you','who is the creator of you','who created u','who is your owner','who is ur owner','who is your creator','who is god','who is ur creator']
+ans=["I am HUMBOT,created by thaj.How can i help you?"]
+random_who= random.choice(ans)
+
+cancel=['cancellation policy','cancelled trains',//'what is the cancellation policy','what is the cancellation charge','cancellation charge','what is my cancellation charge','cancel my ticket','how do i cancel my ticket','how can i cancel my ticket','can i cancel my ticket','cancel','cancellation of my ticket','how can i make cancellation of my ticket','how can i make cancellation','do you help me for my ticket cancellation','please cancel my ticket','cancel the ticket','ticket cancellation','ticket cancellation policy','ticket cancellationpolicy','miss my train','when i miss my train what can i do']
+anss=["CANCELLATION TIME:24 hrs before the departure of the train CANCELLATION CHARGE:Rs.120/- for AC First Class/Executive Class, Rs.100/- for AC 2 Tier/First Class, Rs. 90 for AC 3 Tier/AC Chair car/ AC 3 Economy, Rs.60/- for Sleeper Class and Rs.30/- for Second Class."]
+random_cancel= random.choice(anss)
+
+while True:
+	userInput = input(">>> ")
+	uinput=userInput.lower()
+	tab=str.maketrans("!?.,",4*" ")
+	user=uinput.translate(tab)
+	userinput=user.strip()
+	if userinput in greetings:
+		print(random_greeting)
+	elif userinput in question:
+	    print(random_response)
+	elif userinput in pnrs:
+	    print(random_pnr)
+	elif userinput in pnrr:
+	    print(random_defpnr)
+	elif userinput in seatavail:
+	    print(random_seatavail)
+	elif userinput in railstatus:
+	    print(random_railstatus)
+	elif userinput in trainschedule:
+	    print(random_schedule)
+	elif userinput in chkposition:
+	    print(random_pos)
+	elif userinput in reservation:
+	    print(random_res)
+	elif userinput in fare:
+	    print(random_fare)
+	elif userinput in train:
+	    print(random_train)
+	elif userinput in faq1:
+	    print(random_faq)
+	elif userinput in platform:
+	    print(random_plat)
+	elif userinput in who:
+	    print(random_who)
+	elif userinput in cancel:
+	    print(random_cancel)
+	else:
+		print("Helpline: 139 or send a mail with the details to care@irctc.co.in .")
