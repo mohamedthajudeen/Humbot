@@ -4,43 +4,43 @@ greetings = ['hola','hlo','hello','helo','hi','hey!','hey','hai','hii','hiii']
 greet=["Hi","Hello","Hey"]
 random_greeting = random.choice(greet)
 
-question = ['how are you','how are you doing?','hw are you','hw r u','how r u','hwru','what about you','about you','wt abt u','what about u','how are u','how r you']
+question = ['how are you','how are you doing','hw are you','hw r u','how r u','hwru','what about you','about you','wt abt u','what about u','how are u','how r you']
 responses = ["I'm fine"]
 random_response = random.choice(responses)
 
-pnrs =['can i get my pnr status','tell me about my pnr status','pnr status','pnr status?','status']
+pnrs =['can i get my pnr status','how to check whether my ticket is conformed','how to check whether my ticket was conformed','how to check whether my ticket is conformed or not','how to check conformation of ticket','when was my ticket was conformed','waiting list means','how to catch my train','what is my pnr status','rac means','can i get my pnr status','tell me about my pnr status','pnr status','pnr status?','status']
 pnrstatus = ["To check your train PNR status, type in PNR followed by your 10-digit PNR number and send to 139 or 5676747. For eg., PNR <10-digit code="">."]
 random_pnr = random.choice(pnrstatus)
 
-pnrr=['what is pnr','passenger name record','what is passenger name record','pnrr','pnrno','pnr no','my pnr no','how do i read my pnr number','how can i know my pnr number','pnr means','pnr','how can i know my pnr no','where is my pnr number located','how to find my pnr number','find my pnr number','my pnr number','where is my pnr number','define pnr','tellme about pnr','what pnr','what is pnr number','how can i find my pnr number']
+pnrr=['what is pnr','how to find my pnr number','pnr means','passenger name record','what is passenger name record','pnrr','pnrno','pnr no','my pnr no','how do i read my pnr number','how can i know my pnr number','pnr means','pnr','how can i know my pnr no','where is my pnr number located','how to find my pnr number','find my pnr number','my pnr number','where is my pnr number','define pnr','tellme about pnr','what pnr','what is pnr number','how can i find my pnr number']
 definepnr=["The PNR status of the train ticket that shows CNF means that the seats are confirmed. Ans: RAC means “Reservation Against Cancellation” and WL stands for “Waiting List”. RAC means that you will be given a seat which has to be shared with another passenger.This is printed on the upper right corner of your ticket and contains 10 digits. You use this PNR number to check your current status. Click ​here​ to enter your PNR number and check your status. The PNR number (passenger name record) is a 10digit number printed on the upper right corner of your Indian Railway ticket."]
 random_defpnr= random.choice(definepnr)
 
-seatavail=['how to find my seat availability','find my coach','where is my coach','get avilability','seat','seat avilability','seats','my seat','whwer is my seat','where is my seat','find my seat','tell my seat','tell my seat availability','availability of my seat','show my seat availability','seating availability']
+seatavail=['how to find my seat availability','where is my seat','find my coach','where is my coach','find my seat','get avilability','seat','seat avilability','seats','my seat','whwer is my seat','where is my seat','find my seat','tell my seat','tell my seat availability','availability of my seat','show my seat availability','seating availability']
 seat=["Step 1: Go to http://www.makemytrip.com/railways/ to know seat availability. Step 2: Enter the details of your Originating and Destination Station name. Step 3: Then, enter your journey date or you can also directly click the calendar icon to enter the journey date."]
 random_seatavail= random.choice(seat)
 
-railstatus=['where is my train','my train status','my rail status','location of my train','train location','rail location','location','how can i check my train location','how can i check location of my train','how can i check my train','how can i know train location','live train running status','live running status','show my train','show my current train location','where is my train location','whr is my train','search my train','running status','train live status','find my train','track my train','train status','status of my train','where are my train','my train','place of my train','find my location of my train','location of my train']
+railstatus=['where is my train','when my train was came','when my train came','tell me about my train details','please find my train','my train status','my rail status','location of my train','train location','rail location','location','how can i check my train location','how can i check location of my train','how can i check my train','how can i know train location','live train running status','live running status','show my train','show my current train location','where is my train location','whr is my train','search my train','running status','train live status','find my train','track my train','train status','status of my train','where are my train','my train','place of my train','find my location of my train','location of my train']
 railstat=["To find your train click on the below link or go with your browser: https://www.ixigo.com/where-is-my-train"]
 random_railstatus= random.choice(railstat)
 
-trainschedule=['find my train schedule','my train schedule','how can i check train timing','my train timing','timing','time','train schedule','schedule of my train','train timing','train timings','rail timing','time of my train','scheduling time','when my train came','tell me about train timings']
+trainschedule=['find my train schedule','name of my train','what is the name of my train','my train schedule','how can i check train timing','my train timing','timing','time','train schedule','schedule of my train','train timing','train timings','rail timing','time of my train','scheduling time','when my train came','tell me about train timings']
 schedule=["To find train timings click on the below link or go with your browser: https://www.travelkhana.com/travelkhana/indian-railways-time-table"]
 random_schedule= random.choice(schedule)
 
-chkposition=['how can i check train coach position and seat layout?','how can I check train coach position and seat layout','how can i check my train position','check my train position','chk my train position','check my rail position','seat position','train coach position','position of train coach','what if i don’t find my coach number on the list of coach position?','what if i don’t find my coach number on the list of coach position','coach position','coach detail','coach details','seat no','seat number','seating number','seating no','seat map','seatmap']
+chkposition=['how can i check train coach position','how to find my position','how can I check train coach position and seat layout','check train position','how can i check my train position','check my train position','chk my train position','check my rail position','seat position','train coach position','position of train coach','what if i don’t find my coach number on the list of coach position?','what if i don’t find my coach number on the list of coach position','coach position','coach detail','coach details','seat no','seat number','seating number','seating no','seat map','seatmap']
 position=["One can check coach position and seat layout of any train in Indian Railways by entering your desired train number or train code on the box above. List of coaches appear for your train which are arranged with respect to engine of the coach. One can select their allotted coach to know seat arrangement of that coach."]
 random_pos= random.choice(position)
 
-reservation=['train reservation','book my ticket','book ticket','book ticket in online','book online','online booking','make online booking','train ticket reservation','rail ticket reservation','trainticket reservation','reservation','can i make reservation','reserve','indian railways reservation','how can i make reservation','how do i make reservation','online reservation','onlinereservation','reserve my ticket','ticket','trainticket','train ticket','railticket','rail ticket','e-ticket','online ticket','e ticket','how to book online ticket?','how to book online ticket','how to book trainticket in online?','how to book trainticket in online','how to book train ticket in online']
+reservation=['train reservation','how to avail my ticket','online booking','bulk booking','how to make bulk booking','ticket booking','how to make ticket booking','how to make ticket booking in online','how to reserve my ticket','how to make reservation','process of reservation','what is the process of reservation','how can i make reservation','how can i book my train ticket','e-booking','when i missed the train what can i do','book my ticket','book ticket','book ticket in online','book online','online booking','make online booking','train ticket reservation','rail ticket reservation','trainticket reservation','reservation','can i make reservation','reserve','indian railways reservation','how can i make reservation','how do i make reservation','online reservation','onlinereservation','reserve my ticket','ticket','trainticket','train ticket','railticket','rail ticket','e-ticket','online ticket','e ticket','how to book online ticket?','how to book online ticket','how to book trainticket in online?','how to book trainticket in online','how to book train ticket in online']
 reserve=["For online booking click on the below link: https://www.makemytrip.com/railways/"]
 random_res= random.choice(reserve)
 
-fare=['fare','fareenquiry','fare enquiry','ticket cost','what is the cost of ticket','what is my fare','cost of my ticket','tell my ticket cost','what is the fare of my ticket','cost','ticketcost']
+fare=['fare','fareenquiry','fare enquiry','what is the amount of ticket','what is the fare pallavan train','what is the cost of pallavan train','fare enquiry','ticket cost','what is the cost of ticket','what is my fare','cost of my ticket','tell my ticket cost','what is the fare of my ticket','cost','ticketcost']
 fareenq=["For fare enquiry click on the below link or go with your browser: http://www.indianrail.gov.in/enquiry/FARE/FareEnquiry.html?locale=en"]
 random_fare= random.choice(fareenq)
 
-train=['chennao to mumbai','train','rail','my train','chennai to kolkata','trichy to chennai','chennai to delhi','chennai trains','trichy trains','pallavan express','pandiyan express','vaigai express','rockfort express','chennai express','trichy to chennai','trichy to madras','train details']
+train=['chennai to mumbai','train','rail','my train','chennai to kolkata','trichy to chennai','chennai to delhi','chennai trains','trichy trains','pallavan express','pandiyan express','vaigai express','rockfort express','chennai express','trichy to chennai','trichy to madras','train details']
 traindetail=["For train details refer this link: https://www.mapsofindia.com/railway-timetable/ "]
 random_train= random.choice(traindetail)
 
@@ -48,17 +48,29 @@ faq1=['how many passengers can be booked in a single ticket/transaction?','how m
 faq11=["A maximum of 6 passenger for general and upto 4 passenger for tatkal.Both the online and offline mode of reservation starts 90 days before the date of journey."]
 random_faq= random.choice(faq11)
 
-platform=['how To know platform number of the train','platform','my platform details','how to find my platform number','how to find my platform no','platform no','platform number','what is my platform number','tell me about my platform details','how can i get my platform details','i want mt platform details','platform details','platform details of my train','show my platform details']
+platform=['how To know platform number of the train','platform','my platform details','how to find my platform number','how to find my platform no','platform no','platform number','what is my platform number','tell me about my platform details','how can i get my platform details','i want my platform details','platform details','platform details of my train','show my platform details']
 platform1=["Go to the IRCTC website and click on 'Train Platform Enquiry' option given at the top-left corner of the website page.Then a box asking the Train Number and the Railway Station will appear in front of your mobile screen"]
 random_plat= random.choice(platform1)
 
-who=['who are you','who r u','who are u','what about you','what about u','tell me about yourself','tell me about urself','who created you','who is the creator of you','who created u','who is your owner','who is ur owner','who is your creator','who is god','who is ur creator']
+who=['who are you','who r u','who are u','what about you','what is your name','what is ur name','do you respond me','what about u','tell me about yourself','tell me about urself','who created you','who is the creator of you','who created u','who is your owner','who is ur owner','who is your creator','who is god','who is ur creator']
 ans=["I am HUMBOT,created by thaj.How can i help you?"]
 random_who= random.choice(ans)
 
-cancel=['cancellation policy','cancelled trains',//'what is the cancellation policy','what is the cancellation charge','cancellation charge','what is my cancellation charge','cancel my ticket','how do i cancel my ticket','how can i cancel my ticket','can i cancel my ticket','cancel','cancellation of my ticket','how can i make cancellation of my ticket','how can i make cancellation','do you help me for my ticket cancellation','please cancel my ticket','cancel the ticket','ticket cancellation','ticket cancellation policy','ticket cancellationpolicy','miss my train','when i miss my train what can i do']
+cancel=['cancellation policy','can i get refund amount','how to get my refund amount','refund amount','how to get my refund amount of cancelled train','cancelled trains','how to gey refund','my train was cancelled what can i do','my train was not confirmed what can i do','what is the cancellation policy','what is the cancellation charge','cancellation charge','what is my cancellation charge','cancel my ticket','how do i cancel my ticket','how can i cancel my ticket','can i cancel my ticket','cancel','cancellation of my ticket','how can i make cancellation of my ticket','how can i make cancellation','do you help me for my ticket cancellation','please cancel my ticket','cancel the ticket','ticket cancellation','ticket cancellation policy','ticket cancellationpolicy','miss my train','when i miss my train what can i do']
 anss=["CANCELLATION TIME:24 hrs before the departure of the train CANCELLATION CHARGE:Rs.120/- for AC First Class/Executive Class, Rs.100/- for AC 2 Tier/First Class, Rs. 90 for AC 3 Tier/AC Chair car/ AC 3 Economy, Rs.60/- for Sleeper Class and Rs.30/- for Second Class."]
 random_cancel= random.choice(anss)
+
+tatkal=['what is tatkal','book tatkal ticket','how to book tatkal ticket','how can i get a tatkal ticket','how can i get tatkal ticket','how can i make tatkal','tatkal','how to use tatkal ticket','how to avail tatkal','how to avail tatkal ticket','what is the use of tatkal ticket','tatkal means','when online reservation full what can i do']
+tat=["The Tatkal is a scheme launched by The Indian Railway for passengers who plan their journey at short notice. The Tatkal ticket can be booked one day in advance to the train journey, with booking starting at 10 a.m."]
+random_tatkal= random.choice(tat)
+
+fun=['i love you','love you','love','luv u baby','i love you baby','be with me','i luv u','luv u','i love u','will you marry me','can you come with me','will u marry me','love you my wife','luv u my wife','luv you my wife','can you accept my proposal','stay with me','can you stay with me','i wnat to marry you','i want to marry u','what is your rate']
+funn=['NO ,now i owned by tcs']
+random_fun= random.choice(funn)
+
+age=['what is your age','age','ur age','your age','how old are you','how old r u','when you born','when you born','when did you created','when did u created']
+agee=["I am a new born bot"]
+random_age= random.choice(agee)
 
 while True:
 	userInput = input(">>> ")
@@ -96,5 +108,17 @@ while True:
 	    print(random_who)
 	elif userinput in cancel:
 	    print(random_cancel)
+	elif userinput in tatkal:
+	    print(random_tatkal)
+	elif userinput in fun:
+	    print(random_fun)
+	elif userinput in age:
+	    print(random_age)
 	else:
 		print("Helpline: 139 or send a mail with the details to care@irctc.co.in .")
+
+
+
+
+
+
